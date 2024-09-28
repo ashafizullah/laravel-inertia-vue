@@ -31,7 +31,7 @@
         <p class="text-slate-600">Need an account? <a :href="route('register')" class="text-link">Register</a></p>
       </div>
       <div>
-        <button class="primary-btn" :disabled="form.processing">Register</button>
+        <button class="primary-btn" :disabled="form.processing">Login</button>
       </div>
     </form>
   </div>
